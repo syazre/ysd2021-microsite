@@ -183,7 +183,7 @@ a:focus {
     position: relative;
     width: 85%;
     margin: -50px auto 0;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     pointer-events: none;
 }
 
@@ -194,6 +194,9 @@ a:focus {
     padding-bottom: 10px;
     background: url(../img/BGAboutYSD@1x-min.png) no-repeat center center;
     background-size: 100%;
+    padding: 165px 0;
+    margin-top: -90px;
+    z-index: 3;
 }
 
 .about__col {
@@ -225,6 +228,12 @@ p.body_para {
 .about__col_btm .about__vision_row {
     width: 320px;
     margin-bottom: 24px;
+}
+.about__key_art {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 93%;
 }
 .container-sm {
     width: 100%;
