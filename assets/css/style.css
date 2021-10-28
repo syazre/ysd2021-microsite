@@ -446,7 +446,6 @@ h2.features__title {
 /*-------------------IMPACT REPORT------------------*/
 #secReport {
     position: relative;
-    background-color: #fbdcc4;
     padding: 100px 0 130px;
     
 }
@@ -505,15 +504,69 @@ h2.features__title {
 
 #secDownload {
     position: relative;
-    background-color: #d6c6db;
-    padding: 30px 0 100px;
+    background-color: #ECD8BF;
+    background: url(../img/BGDownload@1x-min.png) no-repeat center center;
+    padding: 320px 0 250px;
+    z-index: 1;
+    margin-top: -5px;
 }
 
-
-
-
-
-
+h2.download__title {
+    font-family: 'DK Crayon Crumble';
+    font-size: 60px;
+    margin-bottom: 50px;
+    text-align: left;
+    width: 430px;
+}
+ul.download__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 430px;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.download__list li {
+    width: 50%;
+    margin-bottom: 36px;
+}
+ul.download__list li a {
+    position: relative;
+    display: block;
+}
+ul.download__list li:nth-child(odd) {
+    padding-left: 10px;
+}
+ul.download__list li:nth-child(even) {
+    padding-right: 10px;
+}
+ul.download__list li:first-child {
+    width: 60%;
+    padding-left: 0;
+}
+ul.download__list li .download__lbl {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+ul.download__list li:first-child .download__lbl {
+    font-size: 28px;
+}
+.download__col {
+    width: 100%;
+}
+.download__col .download__col_right {
+    margin-left: auto;
+    width: 430px;
+    margin-right: 80px;
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+}
 
 /*-------------------FOOTER------------------*/
 .footer__col {
@@ -541,7 +594,7 @@ ul.social__list > li > a {
     display: block;
 }
 .footer__copyright {
-    font-family: 'ProximaNova-Regular';
+    font-family: 'Proxima Nova Rg';
     font-size: 15px;
     color: #6d6e70;
 }
