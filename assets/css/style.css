@@ -397,12 +397,49 @@ h2.ceo__title {
 #secFeatures {
     position: relative;
     padding: 200px 0 150px;
+    position: relative;
+    background: url(../img/BGSpecialFeatures@1x-min.png) no-repeat center center;
+    background-size: cover;
 }
-
-
-
-
-
+.features__content {
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+h2.features__title {
+    font-family: 'DK Crayon Crumble';
+    font-size: 70px;
+    margin-bottom: 24px;
+}
+.features__para {
+    width: 660px;
+    margin: 0 auto 1rem;
+}
+.features__para_2 {
+    width: 500px;
+}
+#secFeatures .download_link {
+    margin-top: 48px;
+    text-align: center;
+}
+#secFeatures .download_link .download_icon {
+    display: block;
+    margin: 0 auto 5px;
+}
+.features__icon_left {
+    width: 110px;
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+    pointer-events: none;
+}
+.features__icon_right {
+    width: 90px;
+    position: absolute;
+    right: -50px;
+    top: -24px;
+    pointer-events: none;
+}
 
 
 
