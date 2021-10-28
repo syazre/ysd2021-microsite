@@ -446,7 +446,6 @@ h2.features__title {
 /*-------------------IMPACT REPORT------------------*/
 #secReport {
     position: relative;
-    padding: 100px 0 130px;
     
 }
 #secReport .container-wide {
@@ -483,6 +482,53 @@ h2.features__title {
     width: 100%;
     position: relative;
 }
+.swiper__col {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 150px 0;
+    justify-content: space-between;
+}
+h2.report__title {
+    font-family: 'DK Crayon Crumble';
+    font-size: 80px;
+    color: #fff;
+    padding-left: 50px;
+}
+.report__key_art {
+    position: absolute;
+}
+#reportSwiper .swiper-slide-1 {
+    position: relative;
+    background-color: #ECD8BF;
+    background: url(../img/BGEducation@1x-min.png) no-repeat center center;
+}
+#reportSwiper .swiper-slide-1 .report__key_art {
+    width: 750px;
+    left: 50%;
+    transform: translateX(-90%);
+    bottom: 100px;
+}
+.report__stats_container {
+    color: #fff;
+}
+.report__stats_row {
+    margin-bottom: 24px;
+}
+.report__stats_title {
+    width: 240px;
+    margin: 0 auto;
+}
+.report__stats_val {
+    font-family: 'DK Crayon Crumble';
+    font-size: 60px;
+}
+.report_download_container  {
+    margin-top: 36px;
+}
+.report_download_container .download__lbl {
+    color: #fff;
+}
 
 
 
@@ -506,9 +552,9 @@ h2.features__title {
     position: relative;
     background-color: #ECD8BF;
     background: url(../img/BGDownload@1x-min.png) no-repeat center center;
-    padding: 320px 0 250px;
+    padding: 290px 0 250px;
     z-index: 1;
-    margin-top: -5px;
+    margin-top: -20px;
 }
 
 h2.download__title {
@@ -567,6 +613,8 @@ ul.download__list li:first-child .download__lbl {
     -webkit-transform: translateY(-100px);
     transform: translateY(-100px);
 }
+
+
 
 /*-------------------FOOTER------------------*/
 .footer__col {
