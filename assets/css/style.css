@@ -107,15 +107,16 @@ a:focus {
     margin-left: 24px;
 }
 #navbarMain ul.navbar-nav > li {
-    margin-right: 3rem;
+    margin-right: 2.5rem;
 }
 #navbarMain ul.navbar-nav > li:last-child {
     margin-right: 0;
 }
 #navbarMain ul.navbar-nav > li > a {
     font-family: 'DK Crayon Crumble';
-    font-size: 19px;
-    color: rgba(0,0,0,1);
+    font-size: 20px;
+    color: #3c3c3b;
+    opacity: 1;
 }
 #navbarMain ul.navbar-nav > li > a:hover {
     -webkit-transition: color ease-in-out 0.3s;
@@ -169,10 +170,11 @@ a:focus {
 }
 .landing__title {
     font-family: 'DK Crayon Crumble';
-    font-size: 68px;
+    font-size: 72px;
     max-width: 220px;
-    line-height: 52px;
+    line-height: 56px;
     margin-bottom: 24px;
+    color: #343738;
 }
 .landing__subtitle {
     width: 190px;
@@ -194,7 +196,7 @@ a:focus {
     background: url(../img/BGAboutYSD@1x-min.png) no-repeat center center;
     background-size: 100%;
     padding: 165px 0;
-    margin-top: -90px;
+    margin-top: -130px;
     z-index: 3;
 }
 
@@ -202,30 +204,32 @@ a:focus {
     width: 100%;
 }
 .about__col_top {
-    max-width: 700px;
+    max-width: 737px;
     margin-left: auto;
     text-align: right;
 }
 h2.about__title {
     font-family: 'DK Crayon Crumble';
-    font-size: 70px;
+    font-size: 78px;
     margin-bottom: 14px;
+    color: #3e3e3c;
 }
 
 p.body_para {
-    font-family: 'Proxima Nova Rg';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
-    line-height: 1.4;
-    
+    line-height: 1.5;
+    font-weight: 600;
+    color: #3e3e3c;
 }
 .about__col_btm {
-    width: 510px;
+    width: 520px;
     margin-left: auto;
     padding-right: 90px;
     padding-top: 200px;
 }
 .about__col_btm .about__vision_row {
-    width: 320px;
+    width: 325px;
     margin-bottom: 24px;
 }
 .about__key_art {
@@ -263,7 +267,7 @@ p.body_para {
     background: url(../img/BGChairman@1x-min.png) no-repeat center center;
     background-size: cover;
     padding-bottom: 130px;
-    margin-top: -120px;
+    margin-top: -130px;
 }
 .chairman__container {
     position: relative;
@@ -281,24 +285,28 @@ p.body_para {
     width: 350px;
     margin-top: 100px;
 }
-.chairman__image_container {
+.chairman__image_container img {
     pointer-events: none;
 }
 .chairman__name {
-    width: 200px;
+    width: 240px;
     display: block;
-    font-size: 20px;
-    font-family: 'Proxima Nova Rg';
+    font-size: 23px;
+    line-height: 1.3;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
     position: absolute;
     top: 50%;
-    margin-left: 50px;
+    margin-left: 40px;
+    color: #3e3e3c;
 }
-.quote__para {
+p.body_para.quote__para {
     margin-bottom: 0;
     position: relative;
     padding: 36px 0;
+    font-family: "Times New Roman", Times, serif;
 }
-.quote__para::before {
+p.body_para.quote__para::before {
     content: '“';
     display: block;
     font-size: 110px;
@@ -307,7 +315,7 @@ p.body_para {
     left: -5px;
     pointer-events: none;
 }
-.quote__para::after {
+p.body_para.quote__para::after {
     content: '”';
     display: block;
     font-size: 110px;
@@ -318,8 +326,10 @@ p.body_para {
 }
 h2.chairman__title {
     font-family: 'DK Crayon Crumble';
-    font-size: 70px;
+    font-size: 78px;
+    line-height: 1.2;
     margin-bottom: 50px;
+    color: #3e3e3c;
 }
 .chairman__txt_download_container {
     margin-top: 36px;
@@ -383,7 +393,23 @@ h2.ceo__title {
     position: absolute;
     left: 0;
     bottom: 0;
+}
+.ceo__image_container img {
     pointer-events: none;
+}
+.ceo__name {
+    width: 200px;
+    display: block;
+    font-size: 23px;
+    line-height: 1.3;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    position: absolute;
+    top: 58%;
+    margin-left: 50px;
+    left: 50%;
+    transform: translateX(-88%);
+    color: #3e3e3c;
 }
 .chairman__footer_key_art {
     width: 103%;
@@ -393,6 +419,9 @@ h2.ceo__title {
     z-index: 1;
     pointer-events: none;
 }
+
+
+
 /*-------------------SPECIAL FEATURES------------------*/
 #secFeatures {
     position: relative;
@@ -500,10 +529,54 @@ h2.report__title {
 }
 #reportSwiper .swiper-slide-1 {
     position: relative;
-    background-color: #ECD8BF;
+    background-color: #da4178;
     background: url(../img/BGEducation@1x-min.png) no-repeat center center;
 }
 #reportSwiper .swiper-slide-1 .report__key_art {
+    width: 750px;
+    left: 50%;
+    transform: translateX(-90%);
+    bottom: 100px;
+}
+#reportSwiper .swiper-slide-2 {
+    position: relative;
+    background-color: #0bb273;
+    background: url(../img/BGEnvironment@1x-min.png) no-repeat center center;
+}
+#reportSwiper .swiper-slide-2 .report__key_art {
+    width: 750px;
+    left: 50%;
+    transform: translateX(-90%);
+    bottom: 100px;
+}
+#reportSwiper .swiper-slide-3 {
+    position: relative;
+    background-color: #db6d41;
+    background: url(../img/BGCommunity@1x-min.png) no-repeat center center;
+}
+#reportSwiper .swiper-slide-3 .report__key_art {
+    width: 750px;
+    left: 50%;
+    transform: translateX(-90%);
+    bottom: 100px;
+}
+#reportSwiper .swiper-slide-4 {
+    position: relative;
+    background-color: #1280c4;
+    background: url(../img/BGSports@1x-min.png) no-repeat center center;
+}
+#reportSwiper .swiper-slide-4 .report__key_art {
+    width: 750px;
+    left: 50%;
+    transform: translateX(-90%);
+    bottom: 100px;
+}
+#reportSwiper .swiper-slide-5 {
+    position: relative;
+    background-color: #6f3d96;
+    background: url(../img/BGArts&Culture@1x-min.png) no-repeat center center;
+}
+#reportSwiper .swiper-slide-5 .report__key_art {
     width: 750px;
     left: 50%;
     transform: translateX(-90%);
@@ -530,6 +603,37 @@ h2.report__title {
     color: #fff;
 }
 
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+}
+.swiper-button-next {
+    width: 80px;
+    height: 80px;
+    right: 8%;
+}
+.swiper-button-next:after {
+    content: '';
+    background: url(../img/OurFivePillarsArrowRight@1x.png) no-repeat center center;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    display: block;
+
+}
+.swiper-button-prev {
+    width: 80px;
+    height: 80px;
+    left: 8%;
+}
+.swiper-button-prev:after {
+    content: '';
+    background: url(../img/OurFivePillarsArrowLeft@1x.png) no-repeat center center;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    display: block;
+
+}
 
 
 .modal .modal-dialog {
