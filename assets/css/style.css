@@ -450,7 +450,7 @@ h2.ceo__title {
     width: 103%;
     position: absolute;
     left: -30px;
-    bottom: -130px;
+    bottom: -110px;
     z-index: 1;
     pointer-events: none;
 }
@@ -728,6 +728,7 @@ h2.report__title {
     position: relative;
     background-color: #ECD8BF;
     background: url(../img/BGDownload@1x-min.png) no-repeat center center;
+    background-size: cover;
     padding: 210px 0 250px;
     z-index: 1;
     margin-top: -20px;
