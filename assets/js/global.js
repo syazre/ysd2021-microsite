@@ -132,7 +132,7 @@
 
             $('a.nav-link.link-1').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top - 170
+                    scrollTop: $($(this).attr('href')).offset().top - 110
                 }, 800);
 
                 return false;
@@ -228,7 +228,7 @@
 
             $('a.nav-link.link-1').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top - 170
+                    scrollTop: $($(this).attr('href')).offset().top - 110
                 }, 800);
 
                 return false;
