@@ -132,38 +132,38 @@
 
             $('a.nav-link.link-1').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top - 130
+                    scrollTop: $($(this).attr('href')).offset().top - 170
                 }, 800);
 
                 return false;
             });
             $('a.nav-link.link-2').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top + 350
+                    scrollTop: $($(this).attr('href')).offset().top
                 }, 800);
                 return false;
             });
             $('a.nav-link.link-3').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top - 70
+                    scrollTop: $($(this).attr('href')).offset().top - 150
                 }, 800);
                 return false;
             });
             $('a.nav-link.link-4').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top - 70
+                    scrollTop: $($(this).attr('href')).offset().top
                 }, 800);
                 return false;
             });
             $('a.nav-link.link-5').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top + 20
+                    scrollTop: $($(this).attr('href')).offset().top - 10
                 }, 800);
                 return false;
             });
             $('a.nav-link.link-6').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top - 50
+                    scrollTop: $($(this).attr('href')).offset().top 
                 }, 800);
                 return false;
             });
@@ -205,7 +205,7 @@
             });
             $('a.nav-link.link-5').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top - 20
+                    scrollTop: $($(this).attr('href')).offset().top - 10
                 }, 800);
                 return false;
             });
@@ -228,38 +228,38 @@
 
             $('a.nav-link.link-1').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top - 130
+                    scrollTop: $($(this).attr('href')).offset().top - 170
                 }, 800);
 
                 return false;
             });
             $('a.nav-link.link-2').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top + 180
+                    scrollTop: $($(this).attr('href')).offset().top 
                 }, 800);
                 return false;
             });
             $('a.nav-link.link-3').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top - 70
+                    scrollTop: $($(this).attr('href')).offset().top - 150
                 }, 800);
                 return false;
             });
             $('a.nav-link.link-4').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top - 70
+                    scrollTop: $($(this).attr('href')).offset().top
                 }, 800);
                 return false;
             });
             $('a.nav-link.link-5').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top + 20
+                    scrollTop: $($(this).attr('href')).offset().top - 10
                 }, 800);
                 return false;
             });
             $('a.nav-link.link-6').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top - 50
+                    scrollTop: $($(this).attr('href')).offset().top  
                 }, 800);
                 return false;
             });

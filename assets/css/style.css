@@ -329,6 +329,7 @@ p.body_para.quote__para {
     padding: 36px 0;
     font-family: "Times New Roman", Times, serif;
     font-size: 22px;
+    line-height: 1.2;
     font-weight: normal;
     color: #3e3e3c;
 }
