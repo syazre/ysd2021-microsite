@@ -537,6 +537,7 @@ h2.report__title {
     font-size: 100px;
     color: #fff;
     padding-left: 50px;
+    line-height: 80px;
 }
 .report__key_art {
     position: absolute;
@@ -545,56 +546,87 @@ h2.report__title {
     position: relative;
     background-color: #da4178;
     background: url(../img/BGEducation@1x-min.png) no-repeat center center;
+    background-size: cover;
 }
 #reportSwiper .swiper-slide-1 .report__key_art {
-    width: 750px;
+    width: 760px;
+    top: 50%;
     left: 50%;
-    transform: translateX(-90%);
-    bottom: 100px;
+    -webkit-transform: translate(-80%,-45%);
+    transform: translate(-80%,-45%);
 }
 #reportSwiper .swiper-slide-2 {
     position: relative;
     background-color: #0bb273;
     background: url(../img/BGEnvironment@1x-min.png) no-repeat center center;
+    background-size: cover;
 }
 #reportSwiper .swiper-slide-2 .report__key_art {
-    width: 750px;
+    width: 900px;
+    top: 50%;
     left: 50%;
-    transform: translateX(-90%);
-    bottom: 100px;
+    -webkit-transform: translate(-92%,-48%);
+    transform: translate(-92%,-48%);
+}
+#reportSwiper .swiper-slide-2 .report__stats_container {
+    padding: 120px 0 70px;
 }
 #reportSwiper .swiper-slide-3 {
     position: relative;
     background-color: #db6d41;
     background: url(../img/BGCommunity@1x-min.png) no-repeat center center;
+    background-size: cover;
 }
 #reportSwiper .swiper-slide-3 .report__key_art {
-    width: 750px;
+    width: 820px;
+    top: 50%;
     left: 50%;
-    transform: translateX(-90%);
-    bottom: 100px;
+    -webkit-transform: translate(-75%,-25%);
+    transform: translate(-75%,-25%);
+}
+#reportSwiper .swiper-slide-3 h2.report__title {
+    width: 430px;
+    line-height: 1.2;
+}
+#reportSwiper .swiper-slide-3 h2.report__title span {
+    display: block;
+    -webkit-transform: translateX(-36px);
+    transform: translateX(-36px);
+}
+#reportSwiper .swiper-slide-3 .report__stats_container {
+    padding: 120px 0 70px;
 }
 #reportSwiper .swiper-slide-4 {
     position: relative;
     background-color: #1280c4;
     background: url(../img/BGSports@1x-min.png) no-repeat center center;
+    background-size: cover;
 }
 #reportSwiper .swiper-slide-4 .report__key_art {
-    width: 750px;
+    width: 700px;
+    top: 50%;
     left: 50%;
-    transform: translateX(-90%);
-    bottom: 100px;
+    -webkit-transform: translate(-80%,-30%);
+    transform: translate(-80%,-30%);
+}
+#reportSwiper .swiper-slide-4 .report__stats_container {
+    padding: 120px 0 70px;
 }
 #reportSwiper .swiper-slide-5 {
     position: relative;
     background-color: #6f3d96;
     background: url(../img/BGArts&Culture@1x-min.png) no-repeat center center;
+    background-size: cover;
 }
 #reportSwiper .swiper-slide-5 .report__key_art {
-    width: 750px;
+    width: 690px;
+    top: 50%;
     left: 50%;
-    transform: translateX(-90%);
-    bottom: 100px;
+    -webkit-transform: translate(-80%,-42%);
+    transform: translate(-80%,-42%);
+}
+#reportSwiper .swiper-slide-5 .report__stats_container {
+    padding: 120px 0 70px;
 }
 .report__stats_container {
     color: #fff;
@@ -603,7 +635,7 @@ h2.report__title {
     margin-bottom: 24px;
 }
 .report__stats_title {
-    width: 295px;
+    width: 284px;
     margin: 0 auto 14px;
     font-size: 22px;
     font-family: 'Helvetica';
