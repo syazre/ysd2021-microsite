@@ -1377,25 +1377,34 @@ ul.social__list > li > a {
         outline: none;
     }
     .navbar-toggler .navbar-toggler-icon {
-        background-image: none;
-        background-color: #f9a31a;
-        height: 3px;
+        background-image: url(../img/mobileBurgerLine.png);
+        background-size: contain;
+        width: 35px;
+        height: 7px;
+        background-repeat: no-repeat;
+        background-position: center center;
         position: relative;
     }
     .navbar-toggler .navbar-toggler-icon::before {
         content: '';
-        background-color: #f9a31a;
-        height: 3px;
-        width: 100%;
+        background-image: url(../img/mobileBurgerLine.png);
+        background-size: contain;
+        width: 35px;
+        height: 7px;
+        background-repeat: no-repeat;
+        background-position: center center;
         position: absolute;
         top: -10px;
         left: 0;
     }
     .navbar-toggler .navbar-toggler-icon::after {
         content: '';
-        background-color: #f9a31a;
-        height: 3px;
-        width: 100%;
+        background-image: url(../img/mobileBurgerLine.png);
+        background-size: contain;
+        width: 35px;
+        height: 7px;
+        background-repeat: no-repeat;
+        background-position: center center;
         position: absolute;
         bottom: -10px;
         left: 0;
@@ -1410,11 +1419,11 @@ ul.social__list > li > a {
         flex-direction: column;
         margin-left: 0;
         flex-basis: 100%;
-        height: calc(100vh - 1rem - 95px);
-        align-items: center;
+        height: auto;
+        align-items: flex-end;
         justify-content: center;
         overflow-y: auto;
-        padding: 0;
+        padding: 50px 0;
     }
     .navbar-expand-lg .navbar-collapse {
         flex-basis: 100%;
@@ -1462,9 +1471,9 @@ ul.social__list > li > a {
         margin-bottom: 0;
     }
     #navbarMain ul.navbar-nav > li > a {
-        font-family: 'ProximaNova-Bold';
-        font-size: 24px;
-        color: #f9a31a;
+        font-family: 'DK Crayon Crumble';
+        font-size: 30px;
+        color: #3e3e3c;
     }
     
 /*-------------------LANDING 1190------------------*/
@@ -1474,8 +1483,18 @@ ul.social__list > li > a {
     
 
 /*-------------------ABOUT 1190------------------*/
-    
-    
+    #secAbout::before {
+        background-size: contain;
+        height: 60px;
+        -webkit-transform: translate(-50%,-85%);
+        transform: translate(-50%,-85%);
+    }
+    #secAbout::after {
+        background-size: contain;
+        height: 68px;
+        -webkit-transform: translate(-50%,80%);
+        transform: translate(-50%,80%);
+    }
     
     
 
@@ -1498,10 +1517,127 @@ ul.social__list > li > a {
     
 
 /*-------------------IMPACT REPORT 1190------------------*/
+    .swiper__col {
+        width: 680px;
+        margin: 0 auto;
+        display: flex;
+        padding: 120px 0;
+        justify-content: space-between;
+    }
+    h2.report__title {
+        font-family: 'DK Crayon Crumble';
+        font-size: 72px;
+        color: #fff;
+        padding-left: 40px;
+        line-height: 60px;
+    }
+    .report__stats_title {
+        width: 206px;
+        margin: 0 auto 10px;
+        font-size: 16px;
+        font-family: 'Helvetica';
+    }
+    .report__stats_val {
+        font-family: 'DK Crayon Crumble';
+        font-size: 56px;
+        line-height: 1;
+    }
+    .swiper-button-next {
+        width: 60px;
+        height: 60px;
+        right: 8%;
+    }
+    .swiper-button-next:after {
+        content: '';
+        background: url(../img/OurFivePillarsArrowRight@1x.png) no-repeat center center;
+        background-size: contain;
+        width: 60px;
+        height: 60px;
+        display: block;
     
+    }
+    .swiper-button-prev {
+        width: 60px;
+        height: 60px;
+        left: 8%;
+    }
+    .swiper-button-prev:after {
+        content: '';
+        background: url(../img/OurFivePillarsArrowLeft@1x.png) no-repeat center center;
+        background-size: contain;
+        width: 60px;
+        height: 60px;
+        display: block;
     
-    
-    
+    }
+
+    .swiper__col .swiper__col_right {
+        min-width: 270px;
+    }
+    #reportSwiper .swiper-slide-1 .report__key_art {
+        width: 400px;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-85%,-50%);
+        transform: translate(-85%,-50%);
+    }
+
+    #reportSwiper .swiper-slide-2 .report__stats_container {
+        padding: 105px 0 45px;
+    }
+    #reportSwiper .swiper-slide-2 .report__key_art {
+        width: 520px;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-84%,-50%);
+        transform: translate(-84%,-50%);
+    }
+
+    #reportSwiper .swiper-slide-3 .report__stats_container {
+        padding: 105px 0 45px;
+    }
+    #reportSwiper .swiper-slide-3 h2.report__title {
+        width: 430px;
+        line-height: 1.2;
+        text-align: left;
+    }
+    #reportSwiper .swiper-slide-3 h2.report__title span {
+        display: block;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    #reportSwiper .swiper-slide-3 .report__key_art {
+        width: 430px;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-78%,-25%);
+        transform: translate(-78%,-25%);
+    }
+
+    #reportSwiper .swiper-slide-4 .report__stats_container {
+        padding: 105px 0 45px;
+    }
+    #reportSwiper .swiper-slide-4 .report__key_art {
+        width: 420px;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-90%,-53%);
+        transform: translate(-90%,-53%);
+    }
+
+    #reportSwiper .swiper-slide-5 h2.report__title {
+        text-align: left;
+    }
+    #reportSwiper .swiper-slide-5 .report__stats_container {
+        padding: 105px 0 45px;
+    }
+    #reportSwiper .swiper-slide-5 .report__key_art {
+        width: 400px;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-85%,-37%);
+        transform: translate(-85%,-37%);
+    }
 
 /*-------------------DOWNLOAD 1190------------------*/
     
