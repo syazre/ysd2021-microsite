@@ -180,20 +180,20 @@
             $('a.nav-link.link-1').click(function () {
                 console.log("576");
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top - 50
+                    scrollTop: $($(this).attr('href')).offset().top - 60
                 }, 800);
 
                 return false;
             });
             $('a.nav-link.link-2').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top + 120
+                    scrollTop: $($(this).attr('href')).offset().top - 50
                 }, 800);
                 return false;
             });
             $('a.nav-link.link-3').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top - 50
+                    scrollTop: $($(this).attr('href')).offset().top - 120
                 }, 800);
                 return false;
             });
@@ -205,13 +205,13 @@
             });
             $('a.nav-link.link-5').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top - 10
+                    scrollTop: $($(this).attr('href')).offset().top - 70
                 }, 800);
                 return false;
             });
             $('a.nav-link.link-6').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top - 60
+                    scrollTop: $($(this).attr('href')).offset().top - 70
                 }, 800);
                 return false;
             });
