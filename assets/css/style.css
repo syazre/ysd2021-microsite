@@ -2464,6 +2464,7 @@ ul.social__list > li > a {
     #secDownload .download__top_wave {
         background-position: 0px -2px;
         height: 380px;
+        padding-bottom: 0;
     }
     h2.download__title {
         font-family: 'DK Crayon Crumble';
