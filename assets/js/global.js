@@ -135,37 +135,37 @@
         if (window.matchMedia("(max-width: 1191px)").matches) {
 
             $('a.nav-link.link-1').click(function () {
-                $('html, body').animate({
+                $('html, body').stop(true, false).animate({
                     scrollTop: $($(this).attr('href')).offset().top - 110
                 }, 800);
                 return false;
             });
             $('a.nav-link.link-2').click(function () {
-                $('html, body').animate({
+                $('html, body').stop(true, false).animate({
                     scrollTop: $($(this).attr('href')).offset().top
                 }, 800);
                 return false;
             });
             $('a.nav-link.link-3').click(function () {
-                $('html, body').animate({
+                $('html, body').stop(true, false).animate({
                     scrollTop: $($(this).attr('href')).offset().top - 150
                 }, 800);
                 return false;
             });
             $('a.nav-link.link-4').click(function () {
-                $('html, body').animate({
+                $('html, body').stop(true, false).animate({
                     scrollTop: $($(this).attr('href')).offset().top
                 }, 800);
                 return false;
             });
             $('a.nav-link.link-5').click(function () {
-                $('html, body').animate({
+                $('html, body').stop(true, false).animate({
                     scrollTop: $($(this).attr('href')).offset().top - 60
                 }, 800);
                 return false;
             });
             $('a.nav-link.link-6').click(function () {
-                $('html, body').animate({
+                $('html, body').stop(true, false).animate({
                     scrollTop: $($(this).attr('href')).offset().top 
                 }, 800);
                 return false;
@@ -182,32 +182,32 @@
 
             $('a.nav-link.link-1').click(function () {
                 console.log("576");
-                $('html, body').animate({
+                $('html, body').stop(true, false).animate({
                     scrollTop: $($(this).attr('href')).offset().top - 60
                 }, 800);
             });
             $('a.nav-link.link-2').click(function () {
-                $('html, body').animate({
+                $('html, body').stop(true, false).animate({
                     scrollTop: $($(this).attr('href')).offset().top - 50
                 }, 800);
             });
             $('a.nav-link.link-3').click(function () {
-                $('html, body').animate({
+                $('html, body').stop(true, false).animate({
                     scrollTop: $($(this).attr('href')).offset().top - 120
                 }, 800);
             });
             $('a.nav-link.link-4').click(function () {
-                $('html, body').animate({
+                $('html, body').stop(true, false).animate({
                     scrollTop: $($(this).attr('href')).offset().top - 50
                 }, 800);
             });
             $('a.nav-link.link-5').click(function () {
-                $('html, body').animate({
+                $('html, body').stop(true, false).animate({
                     scrollTop: $($(this).attr('href')).offset().top - 70
                 }, 800);
             });
             $('a.nav-link.link-6').click(function () {
-                $('html, body').animate({
+                $('html, body').stop(true, false).animate({
                     scrollTop: $($(this).attr('href')).offset().top - 70
                 }, 800);
             });
@@ -221,32 +221,32 @@
             });
 
             $('a.nav-link.link-1').click(function () {
-                $('html, body').animate({
+                $('html, body').stop(true, false).animate({
                     scrollTop: $($(this).attr('href')).offset().top - 110
                 }, 800);
             });
             $('a.nav-link.link-2').click(function () {
-                $('html, body').animate({
+                $('html, body').stop(true, false).animate({
                     scrollTop: $($(this).attr('href')).offset().top 
                 }, 800);
             });
             $('a.nav-link.link-3').click(function () {
-                $('html, body').animate({
+                $('html, body').stop(true, false).animate({
                     scrollTop: $($(this).attr('href')).offset().top - 150
                 }, 800);
             });
             $('a.nav-link.link-4').click(function () {
-                $('html, body').animate({
+                $('html, body').stop(true, false).animate({
                     scrollTop: $($(this).attr('href')).offset().top 
                 }, 800);
             });
             $('a.nav-link.link-5').click(function () {
-                $('html, body').animate({
+                $('html, body').stop(true, false).animate({
                     scrollTop: $($(this).attr('href')).offset().top - 60
                 }, 800);
             });
             $('a.nav-link.link-6').click(function () {
-                $('html, body').animate({
+                $('html, body').stop(true, false).animate({
                     scrollTop: $($(this).attr('href')).offset().top  
                 }, 800);
             });
