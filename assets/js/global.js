@@ -13,7 +13,7 @@
     });*/
 
 
-    $(document).ready(function() {
+    /* $(document).ready(function() {
         if (window.location.hash)
             scroll(0, 0);
         setTimeout(function () {
@@ -122,7 +122,7 @@
 
         
         
-    });
+    }); */
 
     
 
