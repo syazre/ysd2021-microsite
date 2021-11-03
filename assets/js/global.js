@@ -2,7 +2,7 @@
 
     "use strict";
 
-    /*document.querySelectorAll('a.nav-link[href^="#"]').forEach(anchor => {
+    /* document.querySelectorAll('a.nav-link[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
 
@@ -10,7 +10,7 @@
                 behavior: 'smooth'
             });
         });
-    });*/
+    }); */
 
 
     /* $(document).ready(function() {
@@ -124,7 +124,12 @@
         
     }); */
 
-    
+
+    $( document ).ready(function() {
+        $('a.nav-link').click(function(){
+            $('.navbar-collapse').collapse('hide');
+        });
+    });   
 
     function mediaSize() {
         if (window.matchMedia("(max-width: 1191px)").matches) {
@@ -133,32 +138,37 @@
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top - 110
                 }, 800);
-
+                return false;
             });
             $('a.nav-link.link-2').click(function () {
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top
                 }, 800);
+                return false;
             });
             $('a.nav-link.link-3').click(function () {
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top - 150
                 }, 800);
+                return false;
             });
             $('a.nav-link.link-4').click(function () {
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top
                 }, 800);
+                return false;
             });
             $('a.nav-link.link-5').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top - 10
+                    scrollTop: $($(this).attr('href')).offset().top - 60
                 }, 800);
+                return false;
             });
             $('a.nav-link.link-6').click(function () {
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top 
                 }, 800);
+                return false;
             });
 
         } 
