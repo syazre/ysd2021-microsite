@@ -218,7 +218,7 @@
 
 
         } 
-        else {
+        /* else {
 
             $('.navbar-nav>li>a').on('click', function () {
                 setTimeout(function () {
@@ -265,7 +265,7 @@
             });
 
 
-
+ */
         }
     }
 
