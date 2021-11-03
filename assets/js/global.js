@@ -127,45 +127,38 @@
     
 
     function mediaSize() {
-        /* Set the matchMedia */
-        if (window.matchMedia("(min-width: 1191px)").matches) {
+        if (window.matchMedia("(max-width: 1191px)").matches) {
 
             $('a.nav-link.link-1').click(function () {
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top - 110
                 }, 800);
 
-                return false;
             });
             $('a.nav-link.link-2').click(function () {
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top
                 }, 800);
-                return false;
             });
             $('a.nav-link.link-3').click(function () {
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top - 150
                 }, 800);
-                return false;
             });
             $('a.nav-link.link-4').click(function () {
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top
                 }, 800);
-                return false;
             });
             $('a.nav-link.link-5').click(function () {
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top - 10
                 }, 800);
-                return false;
             });
             $('a.nav-link.link-6').click(function () {
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top 
                 }, 800);
-                return false;
             });
 
         } 
@@ -182,43 +175,34 @@
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top - 60
                 }, 800);
-
-                return false;
             });
             $('a.nav-link.link-2').click(function () {
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top - 50
                 }, 800);
-                return false;
             });
             $('a.nav-link.link-3').click(function () {
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top - 120
                 }, 800);
-                return false;
             });
             $('a.nav-link.link-4').click(function () {
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top - 50
                 }, 800);
-                return false;
             });
             $('a.nav-link.link-5').click(function () {
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top - 70
                 }, 800);
-                return false;
             });
             $('a.nav-link.link-6').click(function () {
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top - 70
                 }, 800);
-                return false;
             });
-
-
         } 
-        /* else {
+        else {
 
             $('.navbar-nav>li>a').on('click', function () {
                 setTimeout(function () {
@@ -230,48 +214,39 @@
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top - 110
                 }, 800);
-
-                return false;
             });
             $('a.nav-link.link-2').click(function () {
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top 
                 }, 800);
-                return false;
             });
             $('a.nav-link.link-3').click(function () {
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top - 150
                 }, 800);
-                return false;
             });
             $('a.nav-link.link-4').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top
+                    scrollTop: $($(this).attr('href')).offset().top 
                 }, 800);
-                return false;
             });
             $('a.nav-link.link-5').click(function () {
                 $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top - 10
+                    scrollTop: $($(this).attr('href')).offset().top - 60
                 }, 800);
-                return false;
             });
             $('a.nav-link.link-6').click(function () {
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top  
                 }, 800);
-                return false;
             });
 
 
- */
+
         }
     }
 
-    /* Call the function */
     mediaSize();
-    /* Attach the function to the resize event listener */
     window.addEventListener("resize", mediaSize, false);
 
 
